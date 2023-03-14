@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(image00.jpeg);
+}
+nav .logo{
+    height: 60px;
+    background-color: rgb(231, 3, 3);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+
+
+    
+nav .contenair >ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    gap: 50px;
+}
+
+nav a{
+    color: aliceblue;
+} 
+nav a:hover{
+    color: black;
+    
+}
+
+nav >.logo img{
+    object-fit: cover;
+    height: 70px;
+}
+
+
+.card{
+    padding: 0 4px;
+    float: right;
+}
+.card button{
+    padding: 4px 30px;
+    text-align: center;
+}
+
+
+
+
+.para{
+    margin-top: 200px;
+    padding: 0 50px;
+    line-height: 30px;
+}
+.para img{
+    border: 2px solid black;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.para img:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 10px black,0 0 15px black;
+    border: 5px solid rgb(226, 14, 14);
+ 
+
+}
+.pi{
+    font-size: 45px;
+    font-family: serif;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+span{
+    color: rgb(226, 14, 14); ;
+}
+
+
+/* les svg eou icones en position */
+.les_svg{
+    margin-top: -300px;
+    float: right;
+}
+.les_svg svg{
+    height: 45px;
+    display: block;
+    padding: 10px 10px;
+}

@@ -1,0 +1,77 @@
+.one{
+    margin-top: 25px;
+    margin-left: 400px;
+    height: 600px;
+    width: 450px;
+    border-radius: 8px;
+    border: 2px solid #b42c27;    
+    background-size: cover;
+    background-position: center;
+    background-image: url(image00.jpeg);
+}
+form{
+    line-height: 15px;
+    padding:5px ;
+    margin: 10px;    
+}
+label{
+    width: 200px;
+    text-align: left;
+    margin: 10px;
+    padding: 8px;
+    font-size: 14px;
+    font-family: serif; 
+    color: red;  
+
+}
+input{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin: 8px;
+    padding: 4px;   
+}
+input:hover{
+    border-radius: 8px;
+    border: 2px solid red;
+    transition: 1s;
+}
+input[type="submit"]:hover{
+    background-color: #0b1de8;
+    transition: 0.5s;
+}
+input[type="reset"]:hover{
+    background-color: #a1230c;
+    transition: 0.5s;
+}
+legend{
+    color:rgb(219, 221, 219);
+    font-family:serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+/* commentaires pour derniere lignes */
+
+a{
+    margin-left: 30%;
+    text-decoration: none;
+    color: #cbd7be;
+    font-size: 18px;
+}
+table{
+    border: 2px solid black;
+}
+td{
+    margin: 2px;
+    width: 20px;
+    border: 2px solid #27b431;
+    
+}
+p{
+    color: rgb(6, 6, 6);
+}
+.one p a:hover{
+    color: red;
+}

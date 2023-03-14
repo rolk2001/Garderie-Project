@@ -1,0 +1,75 @@
+.fred{
+    margin: 25px 0px 0px 350px;
+    height: 300px;
+    width: 500px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-image: url(image00.jpeg);
+    background-size: cover;
+    
+
+}
+form{
+    line-height: 30px;
+    padding: 5px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    margin-top: -8px;
+    color: rgb(219, 221, 219);
+}
+label{
+    padding-top: 5px;
+    margin-top: 5px;
+    margin-left: 50px;    
+
+}
+input{
+    border-radius: 5px;
+    border-color: rgb(246, 232, 232);
+    border-radius: 8px; 
+    padding: 3px 0px;
+    width: 350px;  
+    margin-left: 50px;    
+}
+input[type="submit"]{
+    margin-left: 40%;
+    padding: 0 15px;
+    width: 100PX;
+    border-color: #fcfdfb;
+
+}
+a{
+    margin-left: 50%;
+    color:#cbd7be;
+    text-decoration: none;
+}
+input[type="submit"]:hover{
+    background-color: #b91717;
+    transition: 1s;
+}
+a[href="registration.html"]:hover{
+    color: blue;
+    transition: 1s;
+} 
+p:hover{
+    color: red;
+    transition: 1s; 
+    nav-index: auto;  
+    
+}
+a:hover{
+    color: blue;    
+    transition: 1s;
+    
+}
+div form p{
+    color: white;     
+}
+div form a{
+    color: white;
+}
+label{
+    color: red;
+}
